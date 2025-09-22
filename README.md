@@ -1,33 +1,31 @@
 
-# Netflix Movies and TV Shows - Data Cleaning
+Netflix Movies and TV Shows - Data Cleaning
 
-## Objective
+Objective
 Clean and preprocess the raw Netflix dataset to make it consistent, reliable, and analysis-ready.
 
-## Steps Performed
-1. **Column Names**
-   - Converted to lowercase and replaced spaces with underscores.
+Steps Performed
 
-2. **Handling Missing Values**
-   - Filled `director`, `cast`, `country`, `rating`, and `duration` with "Unknown".
-   - Converted `date_added` to datetime format and filled missing values with placeholder date `1900-01-01`.
+1.Column Names
+i.Converted to lowercase and replaced spaces with underscores.
 
-3. **Removing Duplicates**
-   - Dropped duplicate rows.
+2.Handling Missing Values
+i.Filled `director`, `cast`, `country`, `rating`, and `duration` with "Unknown".
+ii.Converted `date_added` to datetime format and filled missing values with placeholder date `1900-01-01`.
 
-4. **Data Type Fixes**
-   - Converted `release_year` to integer.
-   - Ensured `date_added` is datetime type.
+3.Removing Duplicates
+i.Dropped duplicate rows.
 
-5. **Standardization**
-   - Duration column standardized: "seasons" → "season".
+4.Data Type Fixes
+i.Converted `release_year` to integer.
+ii.Ensured `date_added` is datetime type.
 
-## Deliverables
-- `netflix_titles_cleaned.csv` → Cleaned dataset ready for use.
+5.Standardization
+i.Duration column standardized: "seasons" → "season".
 
-## Tools Used
+Result 
+'netflix_titles_cleaned.csv'→ Cleaned dataset ready for use.
+
+Tools Used
 - Python (Pandas)
-- Jupyter Notebook
-
----
-**Author**: Data Cleaning Task
+- Microsoft Excel 
