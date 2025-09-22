@@ -27,5 +27,6 @@ Result
 'netflix_titles_cleaned.csv'→ Cleaned dataset ready for use.
 
 Tools Used
-- Python (Pandas)
-- Microsoft Excel 
+i.Python (Pandas)
+ii.Microsoft Excel 
+iii.jupyter notebook 
